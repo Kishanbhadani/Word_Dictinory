@@ -1,0 +1,37 @@
+.main{
+    width: 35vw;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(255, 193, 122);
+    border-radius: 12px;
+}
+
+#inp-word{
+    width: 70%;
+    height: 20px;
+    padding: 6px;
+    border: 2px solid rgb(88, 76, 76);
+    border-radius: 24px;
+    font-family: cursive;
+    font-size: medium;
+}
+
+#search-btn{
+    background-color: grey;
+    float: right;
+    color: white;
+    min-height: 30px;
+    border-radius: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+h3{
+    width: 35%;
+}
+
+#sound-btn{
+    height: 20px;
+    width: 20px;
+    float: right;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="Light">
+    <link rel="stylesheet" href="./css/library.css">
+    <title>Dictonary</title>
+</head>
+
+<body>
+    <select id="theme" onchange="switchTheme()">
+        <option value="Light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <div class="main">
+        <div id="search">
+            <input type="text" id="inp-word" placeholder="Enter for searching the word......">
+            <input type="button" id="search-btn" value="Search">
+        </div>
+        <div id="result">
+            <!-- <span><div id="sound"></div></span> -->
+        </div>
+    </div>
+
+    <script src="./js/library.js"></script>
+</body>
+
+</html>
